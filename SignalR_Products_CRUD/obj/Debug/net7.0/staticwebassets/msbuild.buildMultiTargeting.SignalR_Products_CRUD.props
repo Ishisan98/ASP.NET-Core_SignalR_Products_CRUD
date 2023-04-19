@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\SignalR_Products_CRUD.props" />
+</Project>

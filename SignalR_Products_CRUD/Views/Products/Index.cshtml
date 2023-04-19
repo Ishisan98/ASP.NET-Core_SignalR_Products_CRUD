@@ -1,0 +1,22 @@
+﻿@model IEnumerable<SignalR_Products_CRUD.Models.Product>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+<a class="btn btn-primary" asp-action="AddProduct">New Product</a>
+<br />
+<br />
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Price</th>
+        </tr>
+    </thead>
+    <tbody id="tableBody"></tbody>
+</table>
+
